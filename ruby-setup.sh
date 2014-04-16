@@ -49,10 +49,10 @@ source ~/.bashrc
 echo "installing newest version of ruby"
 
 #these should be changed to install a specific ruby
-rvm install latest #this should work without a sudo command(hopefully)
+rvm install 2.1.0 #this should work without a sudo command(hopefully)
 
 #uses whichever ruby version was installed
-rvm use latest
+rvm use 2.1.0
 
 
 
